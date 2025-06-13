@@ -9,4 +9,8 @@ macOS 26+
 Tested on macOS 26.0 beta 1
 
 ## Screenshots
-Soon...
+<img width="1195" alt="image" src="https://github.com/user-attachments/assets/4d2316aa-e790-4be1-b096-7e7d0dd0409b" />
+
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/6499b5c9-4060-4f61-b347-b1f3e4fe5087" />
+
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/948f2352-b845-40f9-aca9-3647585c4c97" />
