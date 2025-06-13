@@ -24,6 +24,7 @@ struct PreferencesView: View {
     @StateObject var pathManager = SearchPathManager.shared
     @State var dropTargeted = false
     @State var forceID: BundleID?
+    
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
