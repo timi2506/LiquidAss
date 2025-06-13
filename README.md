@@ -3,7 +3,7 @@ Name Inspired by a Cowabunga Tweak with the same name and [this Meme](https://ww
 ## Features
 - Allows Disabling Liquid Glass Globally or for specific Apps.
 - EXPERIMENTAL: Allows Force-Enabling Liquid Glass for Specific Apps (accessible by Right Clicking an App in LiquidAss and pressing "EXPERIMENTAL: Force Liquid Glass")
-
+- Got an Idea and wanna help developing? Feel free to submit Pull Requests! :D
 ## Compatibility
 macOS 26+
 Tested on macOS 26.0 beta 1
