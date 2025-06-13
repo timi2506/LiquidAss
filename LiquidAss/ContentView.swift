@@ -16,7 +16,6 @@ struct ContentView: View {
 
 struct PreferencesView: View {
     @StateObject var prefs = AppPreferences.shared
-    @State private var newBundleID = ""
     @State var timerState: TimerState = .none
     @Namespace var namespace
     @State var failedID: BundleID?
@@ -185,27 +184,18 @@ struct PreferencesView: View {
                     .formStyle(.grouped)
                     .interactiveDismissDisabled(true)
                 }
-                VStack(alignment: .leading) {
                     HStack {
-                        TextField("Add Custom App by Bundle ID (e.g. com.example.app)", text: $newBundleID)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                        Text("To add Custom Search Paths or Choose Apps go to Settings by pressing CMD + ,")
+                            .font(.caption)
+                            .foregroundStyle(.gray)
                         Spacer()
-                        Button("Add") {
-                            prefs.addBundleIdentifier(newBundleID)
-                            newBundleID = ""
+                        Button("Refresh") {
+                            refresh()
                         }
-                        .disabled(newBundleID.isEmpty)
                     }
-                    Text("To add Custom Search Paths or Choose Apps go to Settings by pressing CMD + ,")
-                        .font(.caption)
-                        .foregroundStyle(.gray)
-                }
+                    
                 .padding()
             }
-            Button("Refresh") {
-                refresh()
-            }
-            .padding()
         }
         .overlay {
             if dropTargeted {
