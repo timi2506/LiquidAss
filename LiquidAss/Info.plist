@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.timi2506.liquidAss-macOS-app</string>
+			<key>UTTypeDescription</key>
+			<string>macOS Application Bundle</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.apple.application-bundle</string>
+			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>app</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/x-mach-binary</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
