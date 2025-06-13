@@ -1,5 +1,5 @@
 #  LiquidAss
-
+Name Inspired by a Cowabunga Tweak with the same name and [this Meme](https://www.reddit.com/r/apple/comments/1l801h6/no_more_liquid_ass/)
 ## Features
 - Allows Disabling Liquid Glass Globally or for specific Apps.
 - EXPERIMENTAL: Allows Force-Enabling Liquid Glass for Specific Apps (accessible by Right Clicking an App in LiquidAss and pressing "EXPERIMENTAL: Force Liquid Glass")
